@@ -18,7 +18,7 @@
     <body>
         <header>
             <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
-                <a class="navbar-brand" href="#">Cara Marta Messina     </a>
+                <a class="navbar-brand" href="../index.html">Cara Marta Messina</a>
                 
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -27,15 +27,28 @@
                 <div class="collapse navbar-collapse" id="navbarsExampleDefault">
                     <ul class="navbar-nav mr-auto">
                         <li class="nav-item active">
-                            <a class="nav-link" href="../index.html">About Me <span class="sr-only">(current)</span></a>
+                            <a class="nav-link" href="../about/index.html">About Me <span class="sr-only">(current)</span></a>
                         </li>
                         
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#">Fan Studies</a>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#"
+                                id="navbarDropdownMenuLink" role="button" data-toggle="dropdown">Fan Studies</a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#">About Fan Studies</a>
+                                <a class="dropdown-item" href="./models/all_ff_topic_model.html">Topic Model: All Fanfics</a>
+                                <a class="dropdown-item" href="./models/mature_ff_topic_model.html">Topic Model: Mature Fanfics</a>
+                                <a class="dropdown-item"
+                                    href="./models/ga_ff_topic_model.html">Topic Model:
+                                    General Audience Fanfics</a>
+                            </div>
                         </li>
                         
                         <li class="nav-item active">
                             <a class="nav-link" href="../pedagogy/index.html">Pedagogy</a>
+                        </li>
+                        
+                        <li class="nav-item active">
+                            <a class="nav-link" href="../contact/index.html">Contact</a>
                         </li>
                         
                         
@@ -45,10 +58,6 @@
                         
                         <!-- <li class="nav-item active">
                             <a class="nav-link" href="#">CV</a>
-                        </li>
-                        
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#">Contact</a>
                         </li>-->
                         
                     </ul>
@@ -75,21 +84,25 @@
                     the impact of these literacy practices impact fans relationships with writing
                     and reading.</p>
                     
-                    <p><b>Computational Methods</b></p>
+                    <p><b>Computational Methods: Preliminary Findings</b></p>
                 </p>With the permission of the Organization for
                     Transformative Works, I used <a href="https://github.com/radiolarian/AO3Scraper">Jingyi Li and Sarah Sterman's</a> Python code to
-                    scrape over 3,000 <i>The Legend of Korra</i> fan fiction texts and their
-                    metadata. I am using Python to analyze large corpora of <i>The Legend of
-                        Korra</i> fan fictions that I
-                    retrieved from <a href="https://archiveofourown.org/">Archive of Our Own</a>
-                    to perform computational text analysis. Part of my hope for doing computational text
+                    scrape over 7,000 <i>The Legend of Korra</i> fan fiction texts and their
+                    metadata from <em>Archive of our Own</em>. I am using Python to conduct
+                computational text analyses on this corpus. Part of my hope for doing computational text
                     analysis is to celebrate the labors of love performed in fan communities; these
                     labors of love often revolve around and are performed by marginalized people,
                     particular women, people from the queer community, and people of color. I also
                     want to think about the relationship between the original text (The Legend of
                     Korra) and fan uptake. </p>
-                    <p>One of my interesting preliminary finds is
-                    that the average word count for "General Audience" fan fictions is 2,000, while
+                <p>Using this corpus, I have created three different topic models: <ul><li>all the
+                    English fanfictions from the corpus <a href="models/ga_ff_topic_model.html">(model now
+                        available)</a>
+                    </li>
+                    <li>the English fanfictions rated "mature" (model soon to be available)</li>  <li>the English fanfictions rated "general
+                        audience" (model soon to be available)</li></ul> </p>
+                <p>I chose these particular models because of the average word counts
+                    for each. The average word count for "General Audience" fan fictions is 2,000, while
                     the average word count for "Mature" fan fictions is 20,000. Based on my
                     participation in writing and reading fan fictions for 15 years, I speculates
                     this difference is because "Mature" fan fictions typically build tension between characters to
