@@ -50,6 +50,14 @@
                         </li>
                         
                         <li class="nav-item active">
+                            <a class="nav-link" href="../../writing/index.html">Writing</a>
+                        </li>
+                        
+                        <li class="nav-item active">
+                            <a class="nav-link" href="https://github.com/caramessina">GitHub</a>
+                        </li>
+                        
+                        <li class="nav-item active">
                             <a class="nav-link" href="../../contact/index.html">Contact</a>
                         </li>
                         
@@ -70,15 +78,19 @@
             <div class="main-body" class="main-text">
                 <h1>Topic Model: All English Fanfics</h1>
                 <p>This model is a representation of 20 topics from the entire corpus of <em>The Legend of Korra</em> fanfictions from Archive of our Own. Some of the topics (8, 7, and 3) center heavily around the body and touch, while other topics focus around particular characters and lore in the universe (such as topics 14 and 9).</p>
-                <p>I created this model using genism and visualized it with genism's pyLDAvis
-                    function. Once I finish with the "mature" and the "general audience" models, I
-                    will put the code for all three on GitHub.</p>
                 <p>Explore this page! You can look at each topic by hovering over a particular number. You can also look at how often particular words appear across the topics by hovering over a word on the right hand column.</p>
+                
+                <p><em>I created this model using genism and visualized it with genism's pyLDAvis
+                    function. My next goal is to re-create an LDA model that brings in metadata from
+                    the ratings. Right now, this visualization mostly shows the relationship between
+                    topics. I would like to be able to add another variable to look at the difference
+                    between texts that are from different ratings as well as across time. This is my
+                    pilot model!</em></p>
         </main>  
 
 <center><div id="ldavis_el66871100852493365227161845"></div></center>
 <link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/bmabey/pyLDAvis/files/ldavis.v1.0.0.css">
- </div>
+
 
 </body>
 <script type="text/javascript">
