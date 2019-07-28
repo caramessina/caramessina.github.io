@@ -1,20 +1,7 @@
-#wwvt-home {
-  margin-left: 1rem;
-  align-self: center;
-  color: #fefefe;
-  font-size: 1.35rem;
-  font-family: 'Raleway', sans-serif;
-}
-
-#wwvt-home:hover {
-  color: #ccc;
-  text-decoration: none;
-}
-
 .main-body
 {
   max-width: 1080px;
-  margin: 90px auto 0 !important;
+  margin: 20px auto 0 !important;
   float: none !important;
 }
 
@@ -36,9 +23,9 @@
 }
  
 .main-text {
-  margin-top: 130px !important;
+  margin-top: 50px !important;
   font-size: 18px;
-  font-family: 'Raleway', sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   text-align: justify;
 }
 
