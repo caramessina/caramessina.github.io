@@ -4,9 +4,7 @@ document.write('\
 \
 \<ul class="topnav">\
 \
-<li>
-<a href="/index.html" class="logo">Cara Marta Messina </a>
-</li>\
+<li><a href="/index.html" class="logo">Cara Marta Messina </a></li>\
 \
   <li><a href="/about/index.html">About Me</a></li>\
   \  <li><a href="/about/Messina_CV.pdf">CV</a></li>\
