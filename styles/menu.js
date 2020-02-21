@@ -21,6 +21,8 @@ document.write('\
       \
   <li><a href="/writing/index.html">Writing</a></li>\
       \
+  <li><a href="http://www.criticalfantoolkit.org">Dissertation</a></li>\
+      \
   <li><a href="https://github.com/caramessina">GitHub</a></li>\
   \
   <li><a href="/contact/index.html">Contact</a></li>\
