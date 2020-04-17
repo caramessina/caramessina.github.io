@@ -11,8 +11,9 @@ ul.topnav {
 ul.topnav li.logo {
     float: left;
     color: white;
-    font-size: 150%;
-    padding: 5px 12px;
+    font-size: 20px;
+    padding: 10px 12px;
+    font-weight: bold;
     font-family: "Arial Black", Gadget, sans-serif;
 }
 
@@ -34,7 +35,7 @@ ul.topnav li a.active {background-color:  #666699;}
 ul.topnav li.right {float: right;}
 
 @media screen and (max-width: 600px) {
-  ul.topnav li.right, 
+  ul.topnav li.right,
   ul.topnav li {float: none;}
 }
 
