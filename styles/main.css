@@ -10,10 +10,6 @@
 }
 
 
-.dropdown-toggle::after {
-    display:none;
-}
-
 
 .host-element {
   margin-top: 20px;
