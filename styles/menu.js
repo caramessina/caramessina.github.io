@@ -21,7 +21,7 @@ document.write('\
     <a href="javascript:void(1)" class="dropbtn">Teaching</a>\
    \<div class="dropdown-content">\
    \<a href="/pedagogy/index.html">About Pedagogy</a>\
-   \<a href="/pedagogy/remiXML.html">Topic Model: All Fanfics</a>\
+   \<a href="/pedagogy/remiXML.html">remiXML: First Year Writing</a>\
    \</div>\
    \</li>\
       \
