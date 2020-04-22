@@ -7,9 +7,7 @@ document.write('\
 <li><a href="/index.html" class="logo">Cara Marta Messina </a></li>\
 \
   <li><a href="/about/index.html">About Me</a></li>\
-
   \  <li><a href="/about/Messina_CV.pdf">CV</a></li>\
-
  \
   <li class="dropdown">\
    <a href="javascript:void(0)" class="dropbtn">Fan Studies</a>\
@@ -18,14 +16,8 @@ document.write('\
   \<a href="/fan-studies/models/all_ff_topic_model.html">Topic Model: All Fanfics</a>\
   \</div>\
   \</li>\
-  \
-  <li class="dropdown">\
-   <a href="javascript:void(0)" class="dropbtn">Teaching</a>\
-  \<div class="dropdown-content">\
-  \<a href="/pedagogy/index.html">Digital Critical Pedagogy</a>\
-  \<a href="/pedagogy/remiXML.html">remiXML: First Year Writing</a>\
-  \</div>\
-  \</li>\
+    \
+  <li><a href="/pedagogy/index.html">Pedagogy</a></li>\
       \
   <li><a href="/writing/index.html">Writing</a></li>\
       \
