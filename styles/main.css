@@ -21,7 +21,7 @@
   height: 570px !important;
 
 }
- 
+
 .main-text {
   margin-top: 50px !important;
   font-size: 18px;
@@ -29,7 +29,7 @@
   text-align: justify;
 }
 
-h1 { 
+h1 {
   display: block;
   font-size: 2em;
   margin-top: 0.67em;
@@ -50,7 +50,7 @@ h2 {
   font-weight: bold;
 }
 
-h3 { 
+h3 {
   display: block;
   font-size: 1em;
   margin-top: 1em;
@@ -64,7 +64,7 @@ h3 {
     float: left;
     width: 33.33%;
     padding: 20px;
-    
+
 }
 
 @media screen and (max-width:600px) {
@@ -100,10 +100,10 @@ h3 {
 }
 
 .border {
-  box-sizing: content-box;  
+  box-sizing: content-box;
   width: 300px;
   height: 500px;
-  padding: 10px;  
+  padding: 10px;
   border: 2px black;
       float: left;
     padding: 20px;
@@ -129,12 +129,12 @@ h3 {
 }
 
 .flex-container > div {
-  box-sizing: content-box;  
+  box-sizing: content-box;
   width: 300px;
   height: 650px;
-  padding: 10px;  
+  padding: 10px;
   border: 6px black;
-  
+
 }
 
 .heading {
@@ -143,4 +143,47 @@ h3 {
     color: black;
     font-size: 1em;
 
+}
+
+/*style the header*/
+.header {
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+}
+
+/*style the footer */
+.footer {
+    background-color: #f1f1f1;
+    padding: 10px;
+    text-align: left;
+}
+
+/* Popup container */
+.popup {
+    position: relative;
+    display: inline;
+    cursor: pointer;
+}
+
+/* The actual popup (appears on top) */
+.popup .popuptext {
+    visibility: hidden;
+    width: 300px;
+    background-color: gray;
+    color: black;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -80px;
+}
+
+
+/* Toggle this class when clicking on the popup container (hide and show the popup) */
+.popup .show {
+    visibility: visible;
 }
