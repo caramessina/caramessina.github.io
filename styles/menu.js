@@ -24,8 +24,6 @@ document.write('\
    \<a href="/pedagogy/remiXML.html">Topic Model: All Fanfics</a>\
    \</div>\
    \</li>\
-    \
-  <li><a href="/pedagogy/index.html">Pedagogy</a></li>\
       \
   <li><a href="/writing/index.html">Writing</a></li>\
       \
