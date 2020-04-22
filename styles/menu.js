@@ -18,10 +18,10 @@ document.write('\
   \</li>\
   \
    <li class="dropdown">\
-    <a href="javascript:void(1)" class="dropbtn">Fan Studies</a>\
+    <a href="javascript:void(1)" class="dropbtn">Teaching</a>\
    \<div class="dropdown-content">\
-   \<a href="/fan-studies/index.html">About Fan Studies</a>\
-   \<a href="/fan-studies/models/all_ff_topic_model.html">Topic Model: All Fanfics</a>\
+   \<a href="/pedagogy/index.html">About Pedagogy</a>\
+   \<a href="/pedagogy/remiXML.html">Topic Model: All Fanfics</a>\
    \</div>\
    \</li>\
     \
