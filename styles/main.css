@@ -196,11 +196,15 @@ h3 {
 }
 .grid-item {
   padding: 20px;
-  font-size: 12px;
   text-align: center;
 }
 
 .grid-item>h2 {
   font-size: 1.17em;
+  text-align: center;
+}
+
+.grid-item>p {
+  font-size: 16px;
   text-align: center;
 }
