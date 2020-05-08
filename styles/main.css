@@ -203,12 +203,12 @@ p {
   text-align: center;
 }
 
-.grid-item>h2 {
+.grid-item> h2 {
   font-size: 20px;
   text-align: left;
 }
 
-.grid-item>p {
+.grid-item> p {
   font-size: 16px;
     text-align: left;
 }
