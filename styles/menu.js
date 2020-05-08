@@ -20,7 +20,8 @@ document.write('\
    <li class="dropdown">\
     <a href="javascript:void(1)" class="dropbtn">Teaching</a>\
    \<div class="dropdown-content">\
-   \<a href="/pedagogy/index.html">About Pedagogy</a>\
+   \<a href="/pedagogy/index.html">Critical Digital Pedagogy</a>\
+   \<a href="/pedagogy/syllabus/writing-for-social-media-syllabus.pdf">Writing for Social Media Syllabus</a>\
    \<a href="/pedagogy/remiXML/index.html">remiXML: First Year Writing</a>\
    \</div>\
    \</li>\
