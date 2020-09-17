@@ -64,11 +64,19 @@ p {
     font-size: 16px;
 }
 
-    .card {
-        position: relative;
-        display: inline-block;
-        margin: 50px;
-    }
+.card-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 10px;
+}
+.card {
+    position: relative;
+    display: inline-block;
+    margin: 50px;  
+    border: 1px solid;
+    padding: 20px;
+}
+
     .card .img-top {
         display: none;
         height:400px;
