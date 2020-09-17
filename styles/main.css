@@ -65,14 +65,24 @@ p {
 }
 
     .card {
-        width: 130px;
-        height: 195px;
         position: relative;
         display: inline-block;
         margin: 50px;
     }
     .card .img-top {
         display: none;
+        width: 130px;
+        height: 195px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 99;
+    }
+    
+        .card .img-bott {
+        display: none;
+        width: 130px;
+        height: 195px;
         position: absolute;
         top: 0;
         left: 0;
