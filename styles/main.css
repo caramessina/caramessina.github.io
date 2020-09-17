@@ -71,18 +71,15 @@ p {
     }
     .card .img-top {
         display: none;
-        width: 130px;
-        height: 195px;
+        height:400px;
         position: absolute;
         top: 0;
         left: 0;
         z-index: 99;
     }
     
-        .card .img-bott {
-        display: none;
-        width: 130px;
-        height: 195px;
+       .card .img-bott {
+        height:400px;
         position: absolute;
         top: 0;
         left: 0;
