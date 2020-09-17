@@ -82,7 +82,7 @@ p {
 .card {
     position: relative;
     display: inline-block;
-    border: 1px solid;
+    height: 400px;
     padding: 20px;
 }
 
