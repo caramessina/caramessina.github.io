@@ -2,6 +2,7 @@
 {
   max-width: 1080px;
   margin: 20px auto 0 !important;
+  margin-bottom: 20px;
   float: none !important;
 }
 
@@ -82,21 +83,21 @@ p {
 .card {
     position: relative;
     display: inline-block;
-    height: 300px;
+    height: 350px;
     padding: 20px;
 }
 
     .card .img-top {
         display: none;
-        height:300px;
+        height:350px;
         position: absolute;
         top: 0;
         left: 0;
-        z-index: 99;
+        z-index: 98;
     }
     
        .card .img-bott {
-        height:300px;
+        height:350px;
         position: absolute;
         top: 0;
         left: 0;

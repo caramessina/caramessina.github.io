@@ -1,5 +1,10 @@
 body {margin: 0;}
 
+.topnav {
+    position: fixed;
+    z-index: 99999;
+}
+
 ul.topnav {
   list-style-type: none;
   margin: 0;
