@@ -80,7 +80,7 @@ p {
   margin-top: 40px;
 }
 .card {
-    position: absolute;
+    position: relative;
     display: inline-block;
     height: 300px;
     padding: 20px;
