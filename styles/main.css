@@ -42,7 +42,7 @@ h1 {
 
 h2 {
   display: block;
-  font-size: 20pxem;
+  font-size: 20px;
   margin-top: 0.83em;
   margin-bottom: 0.83em;
   margin-left: 0;
@@ -80,15 +80,15 @@ p {
   margin-top: 40px;
 }
 .card {
-    position: relative;
+    position: absolute;
     display: inline-block;
-    height: 400px;
+    height: 300px;
     padding: 20px;
 }
 
     .card .img-top {
         display: none;
-        height:400px;
+        height:300px;
         position: absolute;
         top: 0;
         left: 0;
