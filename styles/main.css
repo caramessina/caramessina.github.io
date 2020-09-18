@@ -1,8 +1,7 @@
 .main-body
 {
   max-width: 1080px;
-  margin: 20px auto 0 !important;
-  margin-bottom: 20px;
+  margin: 50px auto 20px auto !important;
   float: none !important;
 }
 
@@ -93,7 +92,7 @@ p {
         position: absolute;
         top: 0;
         left: 0;
-        z-index: 98;
+        z-index: 99;
     }
     
        .card .img-bott {
