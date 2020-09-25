@@ -260,23 +260,14 @@ li {
     visibility: visible;
 }
 
-.grid-container {
+.ped-grid-container {
   display: grid;
   grid-template-columns: auto auto;
   background-color: white;
   padding: 10px;
 }
-.grid-item {
+.ped-grid-item {
   padding: 20px;
-  text-align: center;
-}
-
-.grid-item> h2 {
-  font-size: 20px;
   text-align: left;
 }
 
-.grid-item> p {
-  font-size: 16px;
-    text-align: left;
-}
