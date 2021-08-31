@@ -7,7 +7,7 @@ document.write('\
 <li><a href="/index.html" class="logo">Cara Marta Messina </a></li>\
 \
   <li><a href="/about/index.html">About Me</a></li>\
-  \  <li><a href="/about/Messina_CV.pdf">CV</a></li>\
+  \  <li><a href="/job_materials/index.html">Job Materials</a></li>\
  \
   <li class="dropdown">\
    <a href="javascript:void(0)" class="dropbtn">Fan Studies</a>\
