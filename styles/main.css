@@ -1,5 +1,5 @@
 .main-body
-{
+{ 
   max-width: 1080px;
   margin: 50px auto 20px auto !important;
   float: none !important;
@@ -119,7 +119,7 @@ li {
         left: 0;
         z-index: 99;
     }
-    
+
        .card .img-bott {
         height: 400px;
         position: absolute;
@@ -197,7 +197,7 @@ li {
       flex-end, space-between,
       space-around, stretch */
    align-content: flex-end;
-   
+
 }
 
 .flex-container > div {
@@ -270,4 +270,3 @@ li {
   padding: 20px;
   text-align: left;
 }
-
